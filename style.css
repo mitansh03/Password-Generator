@@ -3,3 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(90deg, rgba(254,158,255,1) 0%, rgba(75,75,206,1) 67%);
+}
