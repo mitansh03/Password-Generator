@@ -1,8 +1,8 @@
-const submitButton = document.getElementById("btn");
+const submitButton = document.getElementById("#btn");
 const passwordBox = document.getElementById("password");
 
 const char = "^(?=.*[a-z])(?=.*[A-Z])(?=.*d)(?=.*[^da-zA-Z]).{8,15}$";
-const all = /* alphabets; + num + */ char;
+const all = char;
 const length = 12;
 submitButton.addEventListener("click", () => {
   let password = "";
